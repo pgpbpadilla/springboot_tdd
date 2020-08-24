@@ -12,5 +12,6 @@ public class MySampleClassTest {
     public void testMySampleMethod() {
         Optional<String> result = new MySampleClass().mySampleMethod();
         assertNotNull(result);
+        assertEquals(result.get(), "CorrectResult");
     }
 }
